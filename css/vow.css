@@ -1,0 +1,315 @@
+/* MEIN CUSTOM STYLSHEED */
+
+/* IMPORT CSS */
+@import url(bootstrap.css);
+@import url(isotope.css);
+@import url(nivo-slider.css);
+@import url(default.css);
+
+
+
+
+      	
+      	/* HAUPTNAVIGATION
+-------------------------------------------------- */
+
+      	/*HAUPTNAVIGATION - Link*/
+      	
+      	
+      	.navbar .nav > li > a {
+    color: #cccccc;
+    float: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: none;
+/*     text-shadow: 0 1px 0 #FFFFFF; */
+}
+      	
+      	.navbar .nav > li > a:hover {
+      	background: #8a8a8a; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzhhOGE4YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2I4YjhiOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5ZjlmOWYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #8a8a8a 0%, #b8b8b8 50%, #9f9f9f 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8a8a8a), color-stop(50%,#b8b8b8), color-stop(100%,#9f9f9f)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #8a8a8a 0%,#b8b8b8 50%,#9f9f9f 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #8a8a8a 0%,#b8b8b8 50%,#9f9f9f 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #8a8a8a 0%,#b8b8b8 50%,#9f9f9f 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #8a8a8a 0%,#b8b8b8 50%,#9f9f9f 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a8a8a', endColorstr='#9f9f9f',GradientType=0 ); /* IE6-8 */
+      	}
+      	
+      	/*HAUPTNAVIGATION*/
+
+.hauptnavbar{
+background: #8a8a8a; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzhhOGE4YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzZmNmY2ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1NjU2NTYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #8a8a8a 0%, #6f6f6f 50%, #565656 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8a8a8a), color-stop(50%,#6f6f6f), color-stop(100%,#565656)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #8a8a8a 0%,#6f6f6f 50%,#565656 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #8a8a8a 0%,#6f6f6f 50%,#565656 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #8a8a8a 0%,#6f6f6f 50%,#565656 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #8a8a8a 0%,#6f6f6f 50%,#565656 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a8a8a', endColorstr='#565656',GradientType=0 ); /* IE6-8 */
+      	}
+      	
+#logoheader {
+    float: left;
+    margin-left: -100px;
+    position: absolute;
+ }     
+
+/* HINTERGRUND der Sections */
+    .bg-section {
+    	background-color: white;
+    	-webkit-border-radius: 6px;
+    	-moz-border-radius: 6px;
+    	border-radius: 6px;
+/*     	padding: 12px; */
+    	border: 1px black solid;
+    }
+    
+    /* ABSTAND */
+    .distance {
+    	padding-top: 0.5em;
+    	padding-bottom: 0.5em;
+    }
+    
+/*     Trennlinien */
+		.bottomborder {
+			background-image: url("images_bg/trenner_weiss_984px_40px.png");
+			background-position: center bottom;
+			background-repeat: no-repeat;
+			margin: 0 0 24px;
+
+			padding: 0 0 40px;
+		}
+		
+		hr.soften {
+    background-image: -moz-linear-gradient(left center , transparent, rgba(0, 0, 0, 0.1), transparent);
+    border: 0 none;
+    height: 1px;
+    margin: 54px 0;
+}
+    
+/*     Tabellen */
+table .blue {
+    border-bottom-color: #049CDB;
+    color: #049CDB;
+}
+
+table .red {
+    border-bottom-color: #9D261D;
+    color: #9D261D;
+}
+
+table .green {
+    border-bottom-color: #46A546;
+    color: #46A546;
+}
+
+/* HEADLINES */
+.page-header h1 {
+padding-left: 1em;
+}
+
+/* FOOTER */
+
+.footer {
+    border-top: none;
+    margin-top: 45px;
+    padding: 35px 0 36px;
+    font-size: inherit;
+    font-style: normal;
+}
+.footer p {
+    color: #555555;
+    margin-bottom: 0;
+}
+
+/* eigene CSS */
+
+
+	footer li{
+		display: inline;
+		color: #555555;
+    	margin-bottom: 0;
+		padding-top: 1em;
+		padding-right: 1em;
+		padding-bottom: 1em;
+		padding-left: 0;
+		}
+		
+		/* STYLES FÜR FORMULAR VALIDIERUNG */
+
+		label.valid {
+			width: 24px;
+			height: 24px;
+			display: inline-block;
+			text-indent: -9999px;
+			background-image: url(../images_icons/valid.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+		label.error {
+			font-weight: bold;
+			color: red;
+			padding: 2px 8px;
+			margin-top: 2px;
+		}
+		
+/* 		Accordeon TITEL STYLE */
+
+.accordion-heading .accordion-toggle {
+color: #000000;
+background: #8a8a8a; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzhhOGE4YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzZmNmY2ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1NjU2NTYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #8a8a8a 0%, #6f6f6f 50%, #565656 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8a8a8a), color-stop(50%,#6f6f6f), color-stop(100%,#565656)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #8a8a8a 0%,#6f6f6f 50%,#565656 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #8a8a8a 0%,#6f6f6f 50%,#565656 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #8a8a8a 0%,#6f6f6f 50%,#565656 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #8a8a8a 0%,#6f6f6f 50%,#565656 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a8a8a', endColorstr='#565656',GradientType=0 ); /* IE6-8 */
+}
+
+
+
+.accordion-heading .accordion-toggle {
+
+	color: #cccccc;
+/* 
+    -- BLAU --
+    background-color: #0074CC;
+    background-image: -moz-linear-gradient(center top , #0088CC, #0055CC);
+    
+    -- TÜRKIS --
+    background-color: #49AFCD;
+    background-image: -moz-linear-gradient(center top , #5BC0DE, #2F96B4);
+
+	-- SCHWARZ --
+ background-color: #414141;
+    background-image: -moz-linear-gradient(center top , #555555, #222222);
+    
+    -- GELB --
+    background-color: #FAA732;
+    background-image: -moz-linear-gradient(center top , #FBB450, #F89406);
+    
+    -- ROT --
+    background-color: #DA4F49;
+    background-image: -moz-linear-gradient(center top , #EE5F5B, #BD362F);
+    
+    - MAUSGRAU -- 
+ 	background-color: #cccccc;
+    background-image: -moz-linear-gradient(center top , #ffffff, #cccccc);
+ */
+ 
+ background-color: #414141;
+    background-image: -moz-linear-gradient(center top , #555555, #222222);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	margin-bottom: 3px;
+
+}
+
+.accordion-heading a:hover{
+text-decoration: none;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.accordion-inner {
+    border-top: 1px solid #E5E5E5;
+    padding: 9px 0px;
+}
+
+
+.accordion-group {
+  margin-bottom: 2px;
+/*   Ursprünglich 1 px border */
+  border: none;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+		/*   SPEZIFISCHE ANWEISUNGEN MAX-WIDTH 480 START */
+img {
+	max-width: 100%;
+}
+/*   ENDE */
+
+/* Korrektur der Zeilenhöhe von h3  */
+h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+/* Von Dokument kopiert */
+      body {
+      	padding-top: 60px;
+      	/* 60px to make the container go all the way to the bottom of the topbar */
+      	background-image: url(../images_kachel/mauer_natursteine_400x400.jpg);
+      	background-repeat: repeat;
+      	background-position: left top;
+      	background-attachment: fixed;
+      }
+      .carousel{
+      background-color: black;
+      color:#cccccc;
+          line-height: 1;
+    margin-bottom: 0px;
+    position: relative;
+      }
+      
+
+      
+
+.hero-unit {
+background-color: #000000;
+margin-bottom: 0px;
+}
+		.hero-unit h1{
+		color: #cccccc;
+		}
+		
+		.hero-unit p {
+		color:#cccccc;
+		}
+		
+/* 
+		#ticker .span12 {
+		padding: 0px 3px;
+		width: 1164px;
+		}
+ */
+		
+		#facebook {
+			height: 40px;
+			width: 40px;
+			margin-left: 4px;
+			background-image: url(../images_icons/Metallic-Social-Icons.png);
+			background-position: right top;
+		}
+		
+				#twitter {
+			height: 40px;
+			width: 40px;
+			margin-left: 4px;
+			background-image: url(../images_icons/Metallic-Social-Icons.png);
+			background-position: left top;
+		}
+		
+				#rss {
+					height: 40px;
+					width: 40px;
+					margin-left: 4px;
+					background-image: url(../images_icons/Metallic-Social-Icons.png);
+					background-position: center top;
+				}
+		
+		li {
+		line-height: 24px;
+		}
+		.breadcrumb {
+		margin-top: 2em;
+		}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EmbeddedEditorHidden:firmalokoma</key>
+	<false/>
+	<key>ExpandedEditorWidth:firmalokoma:displays([(0, 0), (1920, 1200)])</key>
+	<integer>849</integer>
+	<key>ExpandedItems:firmalokoma</key>
+	<array/>
+	<key>FileFilterMode:firmalokoma</key>
+	<integer>0</integer>
+	<key>OpenDocuments:firmalokoma</key>
+	<array/>
+	<key>OpenDocumentsExpanded</key>
+	<true/>
+	<key>OpenDocumentsVisible</key>
+	<true/>
+	<key>ProjectViewVisible</key>
+	<true/>
+	<key>RecentItems:firmalokoma</key>
+	<array/>
+	<key>RecentItemsExpanded</key>
+	<true/>
+	<key>RecentItemsVisible</key>
+	<true/>
+	<key>ScratchpadItemsExpanded</key>
+	<true/>
+	<key>ScratchpadItemsVisible</key>
+	<true/>
+	<key>ShowSCMData:firmalokoma</key>
+	<false/>
+	<key>ToolbarVisible:firmalokoma</key>
+	<true/>
+	<key>ViewSplitterPosition:firmalokoma</key>
+	<real>0.18286813795566559</real>
+	<key>WindowFrame:firmalokoma:displays([(0, 0), (1920, 1200)])</key>
+	<string>rect(44,169,1138,1208)</string>
+</dict>
+</plist>

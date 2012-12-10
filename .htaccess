@@ -1,0 +1,4 @@
+# mod_deflate aktivieren
+<FilesMatch "\\.(js|css|html|htm|php|xml)$">
+SetOutputFilter DEFLATE
+</FilesMatch> 
