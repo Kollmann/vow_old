@@ -5,14 +5,19 @@
 
 <title>Danke für Ihre Anmeldung f&uuml;r Wochenendweinseminar</title>
 
-<link href="css/vow.css" rel="stylesheet" type="text/css">
+
+<link href="css/vowstyles.css" rel="stylesheet">
 
 <style type="text/css">
 
-body {
+body
+{
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 60px;
+	margin-top: 160px;
+	background-color: #FFF;
+	background-image: url(none);
+	
 }
 
 </style>
@@ -383,7 +388,7 @@ mail("kollmann@voice-of-wine.com", "Anmeldung fuer $termin", $Mailtext, $Absende
 
 else {
 echo ("<h3>Bitte AGB im Formular akzeptieren!</h3><br> <p> HINWEIS: Wenn Sie statt des Links unten Ihren Browser zum Zurücknavigieren benutzen, bleiben die eingegebenen Daten wahrscheinlich erhalten.</p>");
-echo ("<a href='index.html#an_formular'> Zurück zum Formular </a>");
+echo ("<a href='store_weinseminar#formular.html'> Zurück zum Formular </a>");
 
 }
 

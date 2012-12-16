@@ -201,24 +201,6 @@ body > .navbar .brand {
 
       
 
-.hero-unit {
-background-color: rgba(0,0,0,.5);
-margin-bottom: 0px;
-}
-		.hero-unit h1{
-		color: #cccccc;
-		}
-		
-		.hero-unit p {
-		color:#cccccc;
-		}
-		
-/* 
-		#ticker .span12 {
-		padding: 0px 3px;
-		width: 1164px;
-		}
- */
 		
 		#facebook {
 			height: 40px;
@@ -274,6 +256,35 @@ margin-bottom: 0px;
 
 .listspacer li {
 line-height: 2em;
+}
+
+.hero-unit
+{
+/* 	background-color: #EEEEEE; */
+	border-radius: 6px 6px 6px 6px;
+	color: inherit;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 30px;
+	margin-bottom: 30px;
+	padding: 60px;
+	border: 1px #666 solid;
+	background:#2c2c2c;
+/* alte webkit-basierte Browser (Safari, Chrome, etc.) */
+background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#cccccc));
+/* neue webkit-basierte Browser(Safari, Chrome, etc.) */
+background: -webkit-linear-gradient(top, #EEEEEE, #cccccc);
+/* Mozilla/Gecko (Firefox, Flock, etc) */
+background: -moz-linear-gradient(top, #EEEEEE, #cccccc);
+/* F¸r Presto (Opera ab Version 11.1) */
+background: -o-linear-gradient(top, #EEEEEE, #cccccc);
+/* IE10 Pre-Beta */
+background: -ms-linear-gradient(top, #EEEEEE, #cccccc);
+/* aktueller W3C working draft */
+background: linear-gradient(top, #EEEEEE, #cccccc);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+	box-shadow:0 0px 10px rgba(0, 0, 0, 0.1);
 }
     
 /* 
