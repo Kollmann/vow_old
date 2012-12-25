@@ -162,7 +162,10 @@ body > .navbar .brand {
 }
 
 .carousel-caption h2 {
+/* 
     color: #707173;
+ */
+    color: #B2071B
     line-height: 20px;
 }
 
@@ -267,21 +270,22 @@ line-height: 2em;
 	font-weight: 200;
 	line-height: 30px;
 	margin-bottom: 30px;
+		margin-top: 30px;
 	padding: 60px;
-	border: 1px #666 solid;
+	border: 1px #ccc solid;
 	background:#2c2c2c;
 /* alte webkit-basierte Browser (Safari, Chrome, etc.) */
-background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#cccccc));
+background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cccccc));
 /* neue webkit-basierte Browser(Safari, Chrome, etc.) */
-background: -webkit-linear-gradient(top, #EEEEEE, #cccccc);
+background: -webkit-linear-gradient(top, #fff, #cccccc);
 /* Mozilla/Gecko (Firefox, Flock, etc) */
-background: -moz-linear-gradient(top, #EEEEEE, #cccccc);
+background: -moz-linear-gradient(top, #fff, #cccccc);
 /* F¸r Presto (Opera ab Version 11.1) */
-background: -o-linear-gradient(top, #EEEEEE, #cccccc);
+background: -o-linear-gradient(top, #fff, #cccccc);
 /* IE10 Pre-Beta */
-background: -ms-linear-gradient(top, #EEEEEE, #cccccc);
+background: -ms-linear-gradient(top, #fff, #cccccc);
 /* aktueller W3C working draft */
-background: linear-gradient(top, #EEEEEE, #cccccc);
+background: linear-gradient(top, #fff, #cccccc);
 	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
 	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
 	box-shadow:0 0px 10px rgba(0, 0, 0, 0.1);
@@ -291,4 +295,28 @@ background: linear-gradient(top, #EEEEEE, #cccccc);
     .footer_bg {
     	background-color: rgba(225,225,225,.5);
     }
+ */
+ 
+ .carousel-caption {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
+    bottom: 0;
+    left: 0;
+    padding: 0px 15px 10px 15px;
+    position: absolute;
+    right: 0;
+}
+
+.carousel img {
+padding-bottom: 88px;
+}
+
+/* 
+.btn-warning {
+    background-color: #FAA732;
+    background-image: linear-gradient(to bottom, #FBB450, #F89406);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
  */
