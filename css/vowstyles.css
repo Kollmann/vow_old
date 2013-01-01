@@ -150,7 +150,9 @@ hr.soften {
 line-height: 2em;
 }
 
-body > .navbar .brand {
+body > .navbar .brand
+{
+	/* 
     color: #b2071b;
     float: right;
     font-weight: bold;
@@ -159,6 +161,11 @@ body > .navbar .brand {
     padding-right: 0;
     text-shadow: 0 1px 0 rgba(178, 7, 27, 0.1), 0 0 30px rgba(163, 0, 16, 0.125);
     transition: all 0.2s linear 0s;
+ */
+	position: fixed;
+	right: 48px;
+	top: 0;
+	z-index: 10000;
 }
 
 .carousel-caption h2 {
