@@ -4,37 +4,39 @@
 @import url(bootstrap.css);
 @import url(docs.css);
 
-/* ===== HEADER STYLES ===== */
+/* ===== CAROUSEL STYLES ===== */
 
-		#facebook {
-			height: 40px;
-			width: 40px;
-			margin-left: 4px;
-			background-image: url(../images_icons/Metallic-Social-Icons.png);
-			background-position: right top;
-		}
-		
-				#twitter {
-			height: 40px;
-			width: 40px;
-			margin-left: 4px;
-			background-image: url(../images_icons/Metallic-Social-Icons.png);
-			background-position: left top;
-		}
-		
-				#rss {
-					height: 40px;
-					width: 40px;
-					margin-left: 4px;
-					background-image: url(../images_icons/Metallic-Social-Icons.png);
-					background-position: center top;
-				}
 				
-				.carousel-caption {
-				color: #B2071B;
-				}
+		.carousel-caption h2 {
+    	color: #B2071B
+    	line-height: 20px;
+}
+
+      .carousel{
+      background-color: black;
+      color:#cccccc;
+          line-height: 1;
+    margin-bottom: 0px;
+    position: relative;
+      }
+      
+    .carousel-caption {
+    color: #B2071B;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
+    bottom: 0;
+    left: 0;
+    padding: 0px 15px 10px 15px;
+    position: absolute;
+    right: 0;
+}
+
+	.carousel img {
+	padding-bottom: 88px;
+	}
+	
 
 /* ===== BODY STYLES ===== */
+
 
       body {
       	padding-top: 60px;
@@ -45,8 +47,10 @@
       	background-attachment: fixed;
       }
       
-      /* Sidenav for Docs
--------------------------------------------------- */
+      
+
+
+/* ===== SIDNAV FOR DOCS ===== */
 
 .bs-docs-sidenav {
   width: 228px;
@@ -87,6 +91,7 @@
      -moz-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
           box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
 }
+
 /* Chevrons */
 .bs-docs-sidenav .icon-chevron-right {
   float: right;
@@ -114,30 +119,28 @@
   bottom: 270px;
 }
 
+
+/* ===== HR - TRENNER ===== */
 hr.soften {
     background-image: -moz-linear-gradient(left center , transparent, rgba(0, 0, 0, 0.1), transparent);
     border: 0 none;
     height: 1px;
-/* 
-    margin: 70px 0;
- */
      margin: 35px 0;
 
 }
 
     
-    body {
-    	padding-top: 60px;
-    }
+/* ===== PALETTE ===== */
     
     .palette {
     background-color: #fff;
     border-radius: 12px;
     box-shadow: 4px 4px 2px #333;
-/* 
-    margin-bottom: 24px;
- */
     }
+    
+        
+    
+    /* ===== FOOTER STYLES ===== */
     
     .footer {
     background-color: #F5F5F5;
@@ -146,10 +149,16 @@ hr.soften {
     padding: 70px 0;
 }
 
+
+    /* ===== ABSTAND LIST ELEMENTE ===== */
+
 .listspacer li {
 line-height: 2em;
 }
 
+
+    /* ===== BRANDING - LOGO ===== */
+    
 body > .navbar .brand
 {
 	/* 
@@ -168,18 +177,15 @@ body > .navbar .brand
 	z-index: 10000;
 }
 
-.carousel-caption h2 {
-/* 
-    color: #707173;
- */
-    color: #B2071B
-    line-height: 20px;
-}
 
+    /* ===== TEXT KLASSE ERROR ===== */
+    
 .text-error {
     color: #b2071b;
     margin: 2em 0 1em 0;
 }
+
+    /* ===== TEXT NAVLIST ===== */
 
 .nav-list > .active > a,
 .nav-list > .active > a:hover {
@@ -190,84 +196,8 @@ body > .navbar .brand
 
 }
 
-/* === VON DER INDEXSEITE EINGEFUEGT */
 
-      body {
-      	padding-top: 60px;
-      	/* 60px to make the container go all the way to the bottom of the topbar */
-      	background-image: url(../images_kachel/mauer_natursteine_400x400.jpg);
-      	background-repeat: repeat;
-      	background-position: left top;
-      	background-attachment: fixed;
-      }
-      .carousel{
-      background-color: black;
-      color:#cccccc;
-          line-height: 1;
-    margin-bottom: 0px;
-    position: relative;
-      }
-      
-
-      
-
-		
-		#facebook {
-			height: 40px;
-			width: 40px;
-			margin-left: 4px;
-			background-image: url(images_icons/Metallic-Social-Icons.png);
-			background-position: right top;
-		}
-		
-				#twitter {
-			height: 40px;
-			width: 40px;
-			margin-left: 4px;
-			background-image: url(images_icons/Metallic-Social-Icons.png);
-			background-position: left top;
-		}
-		
-				#rss {
-					height: 40px;
-					width: 40px;
-					margin-left: 4px;
-					background-image: url(images_icons/Metallic-Social-Icons.png);
-					background-position: center top;
-				}
-		
-		li {
-		line-height: 24px;
-		}
-		.breadcrumb {
-		margin-top: 2em;
-		}
-		
-/* 		=== KURSORT SEITE == */
-    body {
-    	padding-top: 60px;
-    }
-    
-    .palette {
-    background-color: #fff;
-    border-radius: 12px;
-    box-shadow: 4px 4px 2px #333;
-/* 
-    margin-bottom: 24px;
- */
-    }
-    
-    .footer {
-    background-color: #F5F5F5;
-    border-top: 1px solid #E5E5E5;
-    margin-top: 70px;
-    padding: 70px 0;
-}
-
-.listspacer li {
-line-height: 2em;
-}
-
+    /* ===== HERO UNIT ===== */
 .hero-unit
 {
 /* 	background-color: #EEEEEE; */
@@ -304,18 +234,7 @@ background: linear-gradient(top, #fff, #cccccc);
     }
  */
  
- .carousel-caption {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
-    bottom: 0;
-    left: 0;
-    padding: 0px 15px 10px 15px;
-    position: absolute;
-    right: 0;
-}
 
-.carousel img {
-padding-bottom: 88px;
-}
 
 /* 
 .btn-warning {
