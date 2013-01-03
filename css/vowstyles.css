@@ -4,6 +4,17 @@
 @import url(bootstrap.css);
 @import url(docs.css);
 
+
+/* ===== TRENNER Klasse für <hr /> ===== */
+.separator {
+    margin: 12px 0 6px;
+}
+
+p img {
+margin: 12px 0 12px 0;
+
+}
+
 /* ===== CAROUSEL STYLES ===== */
 
 				
