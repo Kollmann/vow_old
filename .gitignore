@@ -2,6 +2,9 @@
 ###################
 update.html
 .htaccess
+/podcast_video/
+/podcast_media_english/
+/podcast_media/
 
 # Compiled source #
 ###################
