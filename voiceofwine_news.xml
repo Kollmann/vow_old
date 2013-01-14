@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Weinseminare für Feinschmecker</title>
+        <link>http://www.voice-of-wine.com/</link>
+        <description>Wochenend-Weinseminare für Feinschmecker und Genießer in Deutschland und Italien</description>
+        <generator>Feeder 2.3.3(1650); Mac OS X Version 10.7.4 (Build 11E53) http://reinventedsoftware.com/feeder/</generator>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <language>de-de</language>
+        <pubDate>Sat, 04 Aug 2012 22:09:42 +0200</pubDate>
+        <lastBuildDate>Sat, 04 Aug 2012 22:09:42 +0200</lastBuildDate>
+        <image>
+            <url>http://voice-of-wine.com/laurentius_100x184.jpg</url>
+            <title>Weinseminare für Feinschmecker</title>
+            <link>http://www.voice-of-wine.com/</link>
+            <width>100</width>
+            <height>184</height>
+            <description>Weindozent und Weinjournalist Laurentius Kollmann</description>
+        </image>
+        <atom:link href="http://voice-of-wine.com/voiceofwine_news.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>NEU: Weinsensorik-Seminar für Fortgeschrittene in Rothenburg ob der Tauber</title>
+            <link>http://www.voice-of-wine.com#ihrvorteil</link>
+            <description><![CDATA[<p>"Potentiale großer Weine erkennen."</p>
+
+<p>Erleben, beschreiben und verstehen Sie die Botschaft großer Lagen und Jahrgänge. Der Weinseminar „DegustationsKurs II“ wendet sich an erfahrene Weininteressierte und schließt dort an, wo der "Degustationskurs I" endet. In diesem Weinseminar für Weinkenner werden die Möglichkeiten der Degustation vertieft und systematisch erweitert. Sie lernen die besonderen sensorischen Merkmale von Sorten-, Lagen- und Spitzenweinen kennen und erfahren, dass hinter den verschiedenen Weinklassen in Wirklichkeit unterschiedliche Konzepte stecken.</p>
+
+<p>Weinklasse</p>
+
+<p>Mit Hilfe von Vertikalverkostungen des gleichen Weins aus verschieden Jahrgängen lernen Sie, wie Sie das Potential von Spitzenweine richtig einschätzen können.</p>
+
+<p>Auch die Verbindung von Speise und Wein wird vertieft. Wie in allen Wochenend-Weinseminaren ist das Degustations-Menü mit Weinbegleitung, wichtiger Bestandteil der Veranstaltung. Küchenchefs bereiten extra für die Weinseminare ein Vier-Gang-Menü zu.</p>]]></description>
+            <pubDate>Sat, 04 Aug 2012 21:34:56 +0200</pubDate>
+            <guid isPermaLink="false">4C34EE86-13CF-4587-AFD8-B9E8B416C951</guid>
+        </item>
+    </channel>
+</rss>
