@@ -193,7 +193,8 @@ body > .navbar .brand
     
 .text-error {
     color: #b2071b;
-    margin: 2em 0 1em 0;
+    margin: 2.5em 0 1em 0;
+    line-height: 1.8em;
 }
 
     /* ===== TEXT NAVLIST ===== */
