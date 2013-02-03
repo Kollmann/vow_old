@@ -35,6 +35,7 @@ update.html
 *.txt
 # *.png #
 # *.jpg #
+*.less
 
 # Specific Directories #
 ############
